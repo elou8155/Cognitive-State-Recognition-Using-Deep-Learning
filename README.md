@@ -10,12 +10,22 @@ The Florida International University's Flexible Electronics Lab is working on a 
 
 To classify the signals recieved from the device, I developed a Long Short-Term Memory (LSTM) neural network for cognitive state classification using fNIRS time-series data, building an end-to-end machine learning pipeline for data preprocessing, model training, and evaluation.
 
-## Technologies
+## Research Poster 
+<p align="center">
+<img src="images/Emily Lou REU Poster.pdf" width="200">
+</p>
 
-## Data Preprocessing
+## Machine Learning Pipeline
 
-## Model Development
+### Data Preprocessing
+- Built a preprocessing pipeline for fNIRS time-series data including smoothing, baseline correction, and z-score normalization
+- Segmented 120-second recordings into overlapping time windows for sequence-based modeling
+- Extracted temporal features including hemoglobin changes and first/second-order signal derivatives
+- Evaluated model performance using 4-fold cross-validation
 
-## Results
+### Model Development
+
+
+### Results
 
 
