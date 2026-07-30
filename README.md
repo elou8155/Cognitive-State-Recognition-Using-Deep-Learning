@@ -25,6 +25,9 @@ A preprocessing pipeline was built for the collected functional-Near Infrared Sp
 ### Model Development
 A LSTM-based model was developed using TensorFlow and Keras to classify the three mental-load categories: High, Moderate, Resting. 
 
+<p align="center">
+<img src="images/LSTM_Architechture.png" width="200">
+</p>
 
 
 The model architecture consisted of three stacked LSTM layers followed by dense classification layers with ReLU and Softmax activations to capture temporal dependencies and perform multi-class prediction. 
