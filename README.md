@@ -1,5 +1,5 @@
 # Cognitive-State-Recognition-Using-Deep-Learning
-Developed an LSTM-based deep learning model to classify cognitive states from time-series neural signals
+Developed an LSTM-based deep learning model to classify cognitive states from time-series neural signals as part of the AI-Driven Resilient Health and Biological Systems Research Program.
 
 ## Overview
 The Florida International University's Flexible Electronics Lab is working on a small, flexible, wearable device that can be placed on the forehead to collects functional near-infrared spectroscopy (fNIRS) data to monitor cognitive activity using non-invasive techniques suitable for daily activities.
@@ -35,5 +35,9 @@ The model architecture consisted of three stacked LSTM layers followed by dense 
 Training incorporated early stopping to reduce overfitting, and model performance was evaluated using group 4-fold cross-validation, where each subject group served as the test set once, providing a robust assessment of generalization.
 
 ### Results
+
+### Technologies Used
+
+Note: Source code and datasets are not included in this repository due to research and intellectual property restrictions. This repository documents the project methodology, architecture, and results.
 
 
