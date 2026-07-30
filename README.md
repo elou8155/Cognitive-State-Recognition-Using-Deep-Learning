@@ -12,7 +12,7 @@ To classify the signals recieved from the device, I developed a Long Short-Term 
 
 ## Research Poster 
 <p align="center">
-<img src="images/Emily Lou REU Poster.pdf" width="200">
+<img src="images/poster.pdf" width="200">
 </p>
 
 ## Machine Learning Pipeline
