@@ -37,6 +37,13 @@ Training incorporated early stopping to reduce overfitting, and model performanc
 
 ### Results
 
+Achieved 70% cross-validated accuracy across 2,000+ samples, demonstrating the model's ability to distinguish between different cognitive states
+
 ### Technologies Used
+
+Programming Language: Python
+Machine Learning: TensorFlow, Keras, Scikit-Learn
+Data Processing: NumPy, Pandas
+Visualization: Matplotlib
 
 
