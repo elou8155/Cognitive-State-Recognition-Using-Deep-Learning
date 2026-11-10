@@ -47,9 +47,9 @@ The results demonstrated the potential of LSTM networks for recognizing cognitiv
 
 ### Technologies Used
 
-Programming Language: Python
-Machine Learning: TensorFlow, Keras, Scikit-Learn
-Data Processing: NumPy, Pandas
-Visualization: Matplotlib
+- Programming Language: Python
+- Machine Learning: TensorFlow, Keras, Scikit-Learn
+- Data Processing: NumPy, Pandas
+- Visualization: Matplotlib
 
 
