@@ -37,7 +37,13 @@ Training incorporated early stopping to reduce overfitting, and model performanc
 
 ### Results
 
-Achieved 70% cross-validated accuracy across 2,000+ samples, demonstrating the model's ability to distinguish between different cognitive states
+Evaluated four LSTM model configurations using 4-fold cross-validation to classify cognitive states based on fNIRS neural signals. Tested both binary classification (active vs. resting) and multi-class classification (hard math, moderate math, and resting).
+
+- Achieved 64.86% accuracy in binary classification using per-sample z-score normalization.
+- Improved binary classification accuracy to 66.24% using z-score normalization across samples.
+- Extracted hemoglobin features (HbO and HbR), including total changes and first and second-order derivatives, to improve model performance.
+
+The results demonstrated the potential of LSTM networks for recognizing cognitive activity from time-series neural signals. However, the models struggled to consistently distinguish moderate cognitive activity and showed signs of overfitting due to the limited dataset size. Future improvements include collecting more participant data and evaluating additional model architectures and features.
 
 ### Technologies Used
 
